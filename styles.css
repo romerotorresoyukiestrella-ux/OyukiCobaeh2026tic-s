@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #E0FAFF;
+    padding: 20px;
+    }
+
+h1 {
+    color: #0C2E69;
+    text-align: center;
+    margin: 5px;
+    }
+
+h2 {
+    color: #04318A;
+    text-align: center;
+    margin: 30px;
+    }
+
+h3 {
+    color: #0770AD;
+    }
+
+h4 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    }
+
+h5 {
+    font-size: 1.0rem;
+    margin: 2px;
+    color: #34495e;
+   }
+
+h6 {
+    font-size: 1.0rem;
+    color: #000000;
+    }
+
+p {
+    font-size: 1.0rem;
+    margin: 1px;
+    }

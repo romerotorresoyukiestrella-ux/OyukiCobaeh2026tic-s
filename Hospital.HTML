@@ -1,0 +1,99 @@
+<HTML>
+	<HEAD>
+    	    <TITLE> Hospital </TITLE>
+   <link rel="stylesheet" href="styles.css" >
+	</HEAD>
+	      <BODY BGCOLOR="#00594C">
+		<TABLE BGCOLOR="WHITE" border="3" width="100%">
+		<TR> <TD> <IMG SRC="IMSS_Bienestar_.png" ALIGN="right" HEIGHT="12%" WIDTH="30%"> <H1> Servicios de Salud del Instituto Mexicano del Seguro Social para el Bienestar </H1> </TD> </TR>
+          <TR>
+	    <FORM>
+                <TD><H2> Datos Generales de la Persona.</H2>
+	      	   <LABEL> Nombre(s): </LABEL> 
+            		<INPUT TYPE="text" PLACEHOLDER="Escriba aquí"> <Br><Br>
+                   <LABEL> Apellido Paterno: </LABEL>
+                        <INPUT TYPE="text" PLACEHOLDER="Escriba aquí"><Br><Br>
+                   <LABEL> Apellido Materno: </LABEL>
+            		<INPUT TYPE="text" PLACEHOLDER="Escriba aquí"><Br><Br>
+            	   <LABEL> Edad: </LABEL>
+            		<INPUT TYPE="number"><Br><Br>
+                   <LABEL> Género: </LABEL> <Br>
+            		<INPUT TYPE="radio" NAME="sexo" VALUE="M"> Masculino
+            		<INPUT TYPE="radio" NAME="sexo" VALUE="F"> Femenino<Br><Br>
+                   <LABEL> Fecha de ingreso: </LABEL>
+            		<INPUT TYPE="date" PLACEHOLDER="dd/mm/aaaa"><Br><Br>
+                   <LABEL> Teléfono:</label>
+			<INPUT TYPE="tel" PLACEHOLDER="teléfono"> <Br> <Br>
+                   <LABEL> Nacionalidad: </LABEL> 
+            		<INPUT TYPE="text" PLACEHOLDER="Escriba aquí"><Br><Br>
+                   <LABEL> Religión: </LABEL>
+			<SELECT NAME="Religion">
+			    <OPTION VALUE="0"> -Seleccione- </OPTION>
+    		            <OPTION VALUE="A)"> Católica </OPTION>
+    		            <OPTION VALUE="B)"> Cristiana </OPTION>
+   			    <OPTION VALUE="C)"> Testigo de Jehová </OPTION>
+                            <OPTION VALUE="D)"> Judía </OPTION>
+                            <OPTION VALUE="E)"> Musulmana </OPTION>
+                            <OPTION VALUE="F)"> Ninguna </OPTION>
+                        </SELECT> <Br><Br>
+                   <LABEL> Localidad: </LABEL>
+            		<INPUT TYPE="text" PLACEHOLDER="Escriba aquí"></TD><Br>
+        </TR>
+	<TR>
+		<TD> <H2> Identificación Oficial </H2>
+	      	   <LABEL> CURP: </LABEL> 
+            		<INPUT TYPE="text" PLACEHOLDER="CURP"> <Br><Br>
+                   <LABEL> NSS (Número del Seguro Social):</label>
+			<INPUT TYPE="tel" PLACEHOLDER="Números sin espacio"> </TD> <Br> <Br>
+	</TR>
+	<TR>
+		<TD><H2> Informacón Médica </H2>
+                   <LABEL> Tipo de Sangre: </LABEL>
+			<SELECT NAME="Tipo de Sangre">
+			    <OPTION VALUE="0"> -Seleccione- </OPTION>
+    		            <OPTION VALUE="A+"> A+ </OPTION>
+    		            <OPTION VALUE="A-"> A- </OPTION>
+   			    <OPTION VALUE="B+"> B+ </OPTION>
+                            <OPTION VALUE="B-"> B- </OPTION>
+                            <OPTION VALUE="AB+"> AB+ </OPTION>
+                            <OPTION VALUE="AB-"> AB- </OPTION>
+                            <OPTION VALUE="O+"> O+ </OPTION>
+                            <OPTION VALUE="O-"> O- </OPTION>
+                        </SELECT> <Br><Br>
+                  <LABEL> <B> Alergias: </B> </LABEL> <Br> <Br>
+			<INPUT TYPE="checkbox" VALUE="Respiratorios"> <SPAN> Respiratorios </SPAN> 
+			<INPUT TYPE="checkbox" VALUE="Alimentos"> <SPAN> Alimentos </SPAN> <Br>
+			<INPUT TYPE="checkbox" VALUE="Cutaneos"> <SPAN> Cutaneos </SPAN> 
+			<INPUT TYPE="checkbox" VALUE="Medicamentos"> <SPAN> Medicamentos </SPAN> <Br>
+		     Otra: <input type="text" name="otra alergia"> <Br> <Br>
+                  <LABEL> <B> Enfermedades Crónicas: </B> </LABEL> <Br> <Br>
+			<INPUT TYPE="checkbox" VALUE="Diabetes"> <SPAN> Diabetes </SPAN> 
+			<INPUT TYPE="checkbox" VALUE="Ipertención"> <SPAN> Impertención </SPAN> <Br> 
+			<INPUT TYPE="checkbox" VALUE="Asma"> <SPAN> Asma </SPAN> <Br>
+		     Otra: <input type="text" name="otra enfermedad crónica"> <Br> <Br> </TD>
+	</TR>
+	<TR>
+                <TD> <LABEL> Motivo de la Consulta: </LABEL> <Br>
+			<TEXTAREA ROWS="4" COLS="50" PLACEHOLDER="Escriba aquí su motivo..."></TEXTAREA> <Br> </TD>
+	</TR>
+	<TR>
+		<TD> <H2> Signos Vitales </H2>
+                    <LABEL> Peso: </LABEL> 
+           		<INPUT TYPE="text" PLACEHOLDER="Ej: 70 kg"><Br><Br>
+                    <LABEL> Talla: </LABEL> 
+           		<INPUT TYPE="text" PLACEHOLDER="Ej: 1.75 m"><Br><Br>
+                    <LABEL> Temperatura: </LABEL> 
+           		<INPUT TYPE="text" PLACEHOLDER="Ej: 36.5 °C"><Br><Br>
+                    <LABEL> Presión: </LABEL> 
+           		<INPUT TYPE="text" PLACEHOLDER="Ej: 120/80"><Br><Br>
+                    <LABEL> Saturación: </LABEL> 
+           		<INPUT TYPE="text" PLACEHOLDER="Ej: 98"><Br><Br>
+	</TR>
+	<TR> <TD>
+	         <CENTER> <INPUT	TYPE="submit" VALUE="Guardar"> </CENTER> </TD>
+	</TR>
+	    </FORM>
+	   </TR>
+	<TABLE>
+     </BODY>
+</HTML>
